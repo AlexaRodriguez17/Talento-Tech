@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    margin-bottom: 1rem;
+}
+
+input, button {
+    margin: 0.2rem;
+}
+
+#books-list {
+    white-space: pre-wrap;
+}
