@@ -1,0 +1,59 @@
+header{
+    color: beige;
+    font-size: larger;
+    padding-left: 20px;
+    text-align: center;
+    font-family:"Ubuntu";        
+}
+
+body {
+	font-family: Arial, sans-serif;
+    background-image: url(fondo\ madera.jpg);
+    background-size: cover;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.card {
+	width: 300px;
+	background-color: white;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+	width: 300px;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+
+.card h2 {
+	margin-bottom: 10px;
+}
+
+.card p {
+	margin-bottom: 20px;
+}
+
+.card button {
+	width: 100%;
+	padding: 10px;
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.card button:hover {
+	background-color:  red;
+}

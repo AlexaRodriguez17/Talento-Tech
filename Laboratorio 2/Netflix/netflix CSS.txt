@@ -1,0 +1,62 @@
+body {
+    background-image: url(Netflix.jpg);
+    background-size: cover;
+	font-family: Arial, sans-serif;
+    color: white;
+}
+header{
+    padding-left: 50px;
+}
+.contenedor {
+	width: 300px;
+	background-color: rgba(0, 0, 0, 0.685);
+	padding: 20px;
+	margin: 90px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.116);
+}
+
+h1 {
+	text-align: justify;
+	margin-bottom: 30px;
+}
+
+input[type="text"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid gray;
+	border-radius: 3px;
+	box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.158);
+}
+
+button[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	background-color: rgb(211, 14, 14);
+	color: white;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+#Primero {
+	text-align: justify;
+	margin-top: 20px;
+}
+
+p {
+	text-align: justify;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+p a {
+	color:rgb(211, 14, 14);
+	text-decoration: none;
+}
