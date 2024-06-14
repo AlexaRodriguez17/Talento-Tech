@@ -1,0 +1,20 @@
+body{
+    padding-left: 400px;    
+    background-image: url(fondo\ gatos\ y\ perros.jpg);
+    background-size: contain;
+       
+}
+header{
+    background-color: rgb(179, 197, 229);
+    font-size: larger;
+    border: 2px solid purple;
+    padding-left: 20px;
+    height: 200px;
+    width: 300px;
+}
+h1{
+    color: rgb(148, 89, 22);
+}
+table{
+    padding: 20px;
+}
