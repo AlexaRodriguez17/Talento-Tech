@@ -1,0 +1,35 @@
+body {
+    background-image: url(hoteles-Grand-Velas-Resorts-e1596047698604.jpg);
+    background-size: cover;
+	font-family: Arial, sans-serif;
+    color: white;
+}
+header{
+    padding-left: 50px;
+}
+.contenedor {
+	width: 300px;
+	background-color: rgba(0, 0, 0, 0.685);
+	padding: 20px;
+	margin: 90px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.116);
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+    color: rgb(245, 238, 220);
+}
+button[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	background-color: rgb(14, 99, 211);
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+p {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+}
