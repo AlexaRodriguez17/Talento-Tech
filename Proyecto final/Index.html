@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopta una mascota</title>
+</head>
+<body>
+    <h1> HEGRADEN </h1>
+    <NAV id="Menu">
+        <a href="#adopciones">En adopción</a>
+        <a href="#Gallery">Peluditos felices</a>
+        <a href="#mi_formulario">Solicitud</a>
+        <a href="#Contactanos">Contactanos</a>
+    </NAV>
+    <header>
+        <h2>Adopta una mascota</h2>        
+        <nav id="Tips">
+          <ol>
+              <li> <a href="https://www.youtube.com/watch?v=0lMXvIHeCvs" > Ejemplos de Vida </a></li>
+              <li> <a href="https://www.youtube.com/watch?v=f-nVA1c2m4o"> Primeros cuidados</a></li>
+              <li> <a href="https://www.youtube.com/watch?v=5buVcG-Zq6Y"> ¿Cómo educarlos? </a> </li>
+          </ol>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h3> Peluditos en adopción </h3>
+            <table border="1px" id="adopciones">
+                <tr>
+                    <td>NOMBRE</td>
+                    <td>EDAD</td>
+                    <td>UBICACION</td>
+                    <td>PELUDITO</td>
+                    
+                </tr>
+                <tr>
+                    <td>SORA</td>
+                    <td>2 MESES</td>
+                    <td>CIUDAD MONTES</td>
+                    <td><img src="Sora2.jpeg" width="200px"></td>
+                </tr>
+                <tr>
+                    <td>SHAKI</td>
+                    <td>2 AÑOS</td>
+                    <td>SANTA BARBARA</td>
+                    <td><img src="Shaki.jpeg" width="200px"></td>
+                </tr>
+                <tr>
+                    <td>LUNA</td>
+                    <td>3 MESES</td>
+                    <td>VIRREY</td>
+                    <td><img src="Luna.jpeg" width="200px"></td>
+                </tr>
+                <tr>
+                    <td>JACK</td>
+                    <td>3 AÑOS</td>
+                    <td>VIRREY</td>
+                    <td><img src="Jack.jpeg" width="200px"></td>
+                </tr>
+            </table>
+            <br/>
+            <div class="gallery" id="Gallery"> 
+                <h3>Finales felices... </h3>               
+                <div class="nav-arrows">
+                  <button class="prev" aria-label="Previous image">&#10094;</button>
+                  <button class="next" aria-label="Next image">&#10095;</button>
+                </div>                
+                <div class="image-container">
+                    <img src="Sora.jpeg" alt="Image 1" class="gallery-image">
+                    <img src="salo.png" alt="Image 2" class="gallery-image">
+                    <img src="Tobi2.jpeg" alt="Image 2" class="gallery-image">
+                    <img src="gatos-regazo.webp" alt="Image 2" class="gallery-image">                
+                </div>
+                <br/>
+            </div>
+            <div class="video">
+                <video controls src="Finales felices.mp4" type="video/mp4" width="200px"></video>
+                <video controls src="Esthefanny adopción.MP4" type="video/mp4" width="200px"></video>
+            </div>            
+            <p id="pie"> Videos cortesia. Esthefanny Herrera</p>
+        </article>
+        <aside>
+                 
+            <form id="mi_formulario">
+                <h2> Requisitos para adoptar:</h2>
+            <p id="dos"> Adoptar un peludito conlleva una gran responsabilidad, es por este motivo que debemos tener unos requisitos mínimos que nos permitan tener certeza de que en los hogares a los que llegarán, van a recibir mucho amor y se quedarán allí.</p>
+            <ol>
+                <li>La persona responsable debe ser mayor de 24 años. </li>
+                <li>Por favor subir un video del lugar donde vivirá el peludito.</li>
+                <li>Debes tener tiempo para compartir con él.</li>
+                <li>Demostrar una estabilidad ecónomica, ya que requieren muchos cuidados.</li>
+            </ol>  
+                <h4>Formulario:</h4>
+                <input type="text" name="Nombres" id="" placeholder="Nombres">
+                <input type="text" name="apellidos" id="" placeholder="Apellidos">
+                <br/>
+                <br/>
+                <input type="number" name="" id="" placeholder="Cédula">
+                <input type="email" name="e-mail" id="" placeholder="Email">
+                <br/>
+                <br/>
+                <input type="number" name="Edad" id="" placeholder="Edad">
+                <input type="date" name="date" id="" placeholder="Fecha diligenciamiento">
+                <br/>
+                <br/>
+                <input type="tel" name="Telefono" id="" placeholder="Telefono">
+                <input type="text" name="Peludito" id="" placeholder="Peludito en adopción">
+                <br/>
+                <br/>
+                <p> Por favor adjuntar soportes </p> <input type="file" name="Soportes" id="">
+                <br/>
+                <br/>
+                <input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar">
+                <br/>
+                <p> Si tu solicitud está en orden, nos contactaremos contigo para coordinar el día en que el peludito que elegiste llegue a su nuevo hogar.</p>
+            </form>
+        
+        </aside>  
+        <br/>
+        <br/>
+        <section>
+            <section id="Contactanos">
+                <h2>Contactanos</h2>
+                <p>Somos una empresa dedicada a ofrecer bienestar a los peluditos que lo necesitan.</p>
+                <p>Contamos con un equipo altamente capacitado y comprometido con el cuidado de nuestros peluditos.</p>
+                <p>Correo: hegraden@gmail.com</p>
+                <p>Cel. 32102091721</p>
+                <br/>
+        </section>
+    </main>
+    <br/>
+    <br/>  
+    <footer>
+        <p><b>Derechos reservados,2024</b></p>
+    </footer>
+    <link rel="stylesheet" href="pagweb style.css">
+    <script src="pag web.js"></script>
+</body>
+</html>
